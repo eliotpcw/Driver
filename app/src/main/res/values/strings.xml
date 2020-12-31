@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Driver</string>
+    <string name="close">Закрыть</string>
+    <string name="scanned_count">Просканировано: %d</string>
+    <string name="scanned_count_empty">Просканировано: 0</string>
+
+    <string name="scanned_text">Просканируйте %s</string>
+    <string name="gos_number">Гос номер</string>
+    <string name="marshrute_number">Номер маршрута</string>
+
+
+    <string-array name="user_type">
+        <item>Водитель Казпочты</item>
+        <item>Наемный согласно договору</item>
+    </string-array>
+
+    <string-array name="stations">
+        <item>Загрузка…</item>
+    </string-array>
+
+    <string name="request_not_successful">Запрос не успешен: %s</string>
+    <string name="request_json_error">Ошибка обработки запроса</string>
+    <string name="request_connection_error">Проверьте подключение к интернету</string>
+    <string name="request_timeout">Сервер не отвечает</string>
+    <string name="request_http_error">Ошибка запроса: %d</string>
+    <string name="request_http_error_format">Ошибка запроса: %d</string>
+    <string name="request_http_error_404">Транспорт не найден</string>
+    <string name="request_http_error_500">Внутренняя ошибка сервера</string>
+    <string name="request_error">Ошибка: %s \n %s</string>
+    <string name="request_http_error_user_blocked">Пользователь заблокирован</string>
+    <string name="request_error_empty">Пустой ответ</string>
+
+    <!-- dialog builder-->
+    <string name="alert_dialog_message">Подождите! Идет загрузка…</string>
+    <string name="request_http_error_400">Не найдено</string>
+    <string name="start_flight">Начать маршрут</string>
+
+    <string name="departed">Машина находится в пути, пожалуйста, обновите маршрут позже</string>
+    <string name="archived">Текущий маршрут окончен</string>
+
+    <string name="zero">0</string>
+
+    <string name="await">Процесс приема - передачи в %1$s завершен</string>
+
+</resources>
